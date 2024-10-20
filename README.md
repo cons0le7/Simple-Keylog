@@ -14,4 +14,4 @@ A very streamlined keylogger for Linux systems written in shell.
 ```
 python3 log_converter.py 
 ```
-- This will convert the captured logd into a user-readable format and output the coonverted version as "logs_converted.txt" in the same directory. 
+- This will convert the captured logs into a user-readable format and output the converted version as "logs_converted.txt" in the same directory. 
