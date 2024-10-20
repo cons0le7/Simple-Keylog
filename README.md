@@ -13,7 +13,7 @@ A streamlined keylogger for Linux systems written in shell.
 ```
 python3 decoder.py 
 ```
-- This will convert the captured logs into a user-readable format and output the converted version as "logs_decoded.txt" in the same directory. This version will include all the key presses and releases but may be as readable.
+- This will convert the captured logs into a user-readable format and output the converted version as "logs_decoded.txt" in the same directory. This version will include all the key presses and releases but may not be as readable.
 - Or you can run
 ```
 python3 sentencer.py
