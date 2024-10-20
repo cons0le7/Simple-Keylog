@@ -1,7 +1,7 @@
 # Simple Keylog
 A very streamlined keylogger for Linux systems written in shell.
 
-#How to use: 
+# How to use: 
 
 - Edit "simple_keylog.sh" in notepad.
 - replace the upload interval with your desired amount in seconds. 
