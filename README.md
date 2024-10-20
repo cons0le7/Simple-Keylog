@@ -18,5 +18,5 @@ python3 decoder.py
 ```
 python3 sentencer.py
 ```
-- This will convert the captured logs into an even more user-readable format and output the converted version as "logs_sentenced.txt" in the same directory. This version will be readable in a sentence-like format but will exclude key releases.
+- This will convert the captured logs into an even more user-readable format and output the converted version as "logs_sentenced.txt" in the same directory. This version will be in a sentence-like format but will exclude key releases.
   
