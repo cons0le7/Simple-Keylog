@@ -6,7 +6,11 @@ A streamlined keylogger for Linux systems written in shell.
 - Edit "keylog.sh" in notepad.
 - replace the upload interval with your desired amount in seconds. 
 - Replace "http://yourserver.com/upload" with your own upload server url.
-- Open terminal of target host, cd to directory of keylog.sh and execute using:
+- Open terminal of target host, cd to directory of keylog.sh and grant executable permissions using:
+```
+chmod +x keylog.sh
+```
+- then execute:
 ```
 ./keylog.sh
 ```
