@@ -1,5 +1,5 @@
 # Simple Keylog
-A streamlined keylogger for Linux systems written in shell.
+A streamlined keylogger for Linux systems written in bash.
 
 # How to use: 
 
